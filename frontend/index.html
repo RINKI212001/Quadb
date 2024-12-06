@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hodlinfo</title>
+  <link rel="stylesheet" href="/frontend/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 style="text-align: left;">HODLINFO</h1>
+      <div id="countdown-circle">
+        <p id="countdown-text">60</p>
+      </div>
+      <div class="stats">
+        <div><span>0.1%</span><p>5 Mins</p></div>
+        <div><span>0.96%</span><p>1 Hour</p></div>
+        <div><span>2.73%</span><p>1 Day</p></div>
+        <div><span>7.51%</span><p>7 Days</p></div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <h2>Best Price to Trade</h2>
+      <p id="best-price">₹ 0</p>
+    
+      
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>cryptocurrency Name</th>
+            <th>Last Traded Price</th>
+            <th>Buy / Sell Price</th>
+            <th>Volume</th>
+            <th>Base Unit</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Data will be inserted dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="copy.js"></script>
+</body>
+</html>

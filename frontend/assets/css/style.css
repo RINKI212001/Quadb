@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #29b6f6;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats span {
+    font-size: 1.5rem;
+    color: #81c784;
+  }
+  
+  .main-content h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+  
+  .main-content p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd54f;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+  }
+  
+  table th, table td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #333;
+  }
+  
+  table th {
+    background-color: #29b6f6;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #292929;
+  }
+  
+  table tr:hover {
+    background-color: #333;
+  }
+  
+  table td {
+    color: #e0e0e0;
+  }
+  
+  #countdown-circle {
+    width: 30px; /* Circle width */
+    height: 30px; /* Circle height */
+    border-radius: 50%; /* Makes it a circle */
+    background: #81c784; /* Circle color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Center the circle horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 800px;
+    margin-top: -40px;
+  
+   
+  }
+
+  #countdown-text {
+    font-size: 1rem; /* Text size */
+    font-weight: bold;
+    color: white; /* Text color */
+    margin: 0;
+  }
